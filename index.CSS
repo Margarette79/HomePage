@@ -1,30 +1,48 @@
-p {
-  color: #ef9875;
-  background-color: white;
-  padding:5px;
-  border: 2px solid #ef9875;
-  width: 100px;
-  height:120px;
-}
 
+      #artist_menu {
 
-h3 {
-  text-align: center;
-  color: #ef9875;
-  background-color: white;
-  padding: 5px;
-  border: 2px solid #ef9875;
-  width: 100px;
-  height:50px;
-}
+        position: absolute;
+        left: 150px;
+        top: 21%;
+        text-align: center;
+        color: #fefefe;
+        background: <img src="./CD.png" />
+        padding: 5px;
+        border: 2px solid #fefefe;
+        width: 105px;
+        height:30px;
+        line-height: 25px;
+      }
 
+      #box_menu {
+        position: absolute;
+        left: 150px;
+        top: 10%;
+        text-align: center;
+        color: #fefefe;
+        background-image: url("CD.png");
+        padding:5px;
+        border: 2px solid #fefefe;
+        width: 105px;
+        height:85px;
+        line-height: 5px;
+      }
 
-h1 {
-  text-align: center;
-  color: #ef9875;
-  background-color: white;
-  padding: 5px;
-  border: 2px solid #ef9875;
-  width: 300px;
-  height:150px;
-}
+      #artist_name {
+        position: absolute;
+        right: 150px;
+        top: 40%;
+        text-align: center;
+        color: #fefefe;
+        background-image: url("Celine_Dion.png");
+        padding: 5px;
+        width: 500px;
+        height:250px;
+        line-height: 130px;
+      }
+
+      #socialmedia {
+        position: absolute;
+        left: 100px;
+        top: 90%;
+      }
