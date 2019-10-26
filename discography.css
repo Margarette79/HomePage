@@ -10,11 +10,11 @@
 #page_name {
   position: absolute;
   text-align: center;
-  left: 40%;
-  top: 10%;
+  left: 40.8%;
+  top: 13%;
   color: #fefefe;
   font-family: 'Roboto', sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -91,7 +91,18 @@
   display: block;
 }
 
-#carouselExampleCaptions {
+.nav a {
+  background-color:none;
+  color:#fff;
+  text-decoration:none;
+  padding: 7px 1px;
+}
+
+.nav a:hover {
+  background-color: #fefefe;
+}
+
+#carousel1 {
   position: absolute;
   width: 350px;
   height: 350px;
