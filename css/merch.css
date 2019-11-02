@@ -1,0 +1,155 @@
+#background {
+  position: absolute;
+  background-color: blue;
+}
+
+
+#socialmedia {
+  position: absolute;
+  left: 100px;
+  top: 90%;
+}
+
+
+
+#header {
+  margin:auto;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#merch_titulo {
+  position: absolute;
+  text-align: center;
+  left: 46%;
+  top: 10%;
+  color: #fefefe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#bags {
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  top: 25%;
+  color: #fefefe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#sunglasses {
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  top: 60%;
+  color: #fefefe;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+
+#box_menu {
+  position: absolute;
+  left: 150px;
+  top: 10%;
+  text-align: center;
+  color: #fefefe;
+  background-image: url("CD.png");
+  padding:5px;
+  border: 2px solid #fefefe;
+  width: 105px;
+  height:85px;
+  line-height: 5px;
+}
+
+#artist_menu_box {
+
+  position: absolute;
+  left: 150px;
+  top: 21%;
+  text-align: center;
+  color: #fefefe;
+  padding: 0px;
+  border: 2px solid #fefefe;
+  width: 105px;
+  height:30px;
+  line-height: 25px;
+}
+
+#artist_menu {
+  position: absolute;
+  left: 147px;
+  top: 20%;
+  text-align: center;
+  color: #fefefe;
+  padding: 0px;
+  line-height: 25px;
+}
+
+ ul, ol {
+  list-style: none;
+}
+
+ * {
+   padding: 5px;
+   margin: 0px;
+}
+
+ .nav li a {
+  background-color:none;
+  color:#fff;
+  text-decoration:none;
+  padding: 1px 30px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #3ec2b5;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 105px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav a {
+  background-color:none;
+  color:#fff;
+  text-decoration:none;
+  padding: 7px 1px;
+}
+
+.nav a:hover {
+  background-color: #fefefe;
+}
+
+#carousel6 {
+  position: absolute;
+  width: 357px;
+  height: 250px;
+  top: 20%;
+  left: 40%;
+}
+
+ #carousel7 {
+   position: absolute;
+   width: 357px;
+   height: 250px;
+   top:55%;
+   left: 40%;
+ }

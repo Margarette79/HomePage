@@ -1,4 +1,7 @@
-
+#background {
+  position: absolute;
+  background-color: blue;
+}
 
 
 #socialmedia {
@@ -10,23 +13,32 @@
 #page_name {
   position: absolute;
   text-align: center;
-  left: 40.8%;
+  left: 44%;
   top: 13%;
-  color: #fefefe;
+  color: #0328bf;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
+  font-weight: 900;
 }
+
+#header {
+  margin:auto;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 #box_menu {
   position: absolute;
   left: 150px;
   top: 10%;
   text-align: center;
-  color: #fefefe;
-  background-image: url("CD.png");
+  color: #0328bf;
+  background-image: url("CDblue.png");
   padding:5px;
-  border: 2px solid #fefefe;
+  border: 2px solid #0328bf;
   width: 105px;
   height:85px;
   line-height: 5px;
@@ -38,9 +50,9 @@
   left: 150px;
   top: 21%;
   text-align: center;
-  color: #fefefe;
+  color: #0328bf;
   padding: 0px;
-  border: 2px solid #fefefe;
+  border: 2px solid #0328bf;
   width: 105px;
   height:30px;
   line-height: 25px;
@@ -51,9 +63,21 @@
   left: 147px;
   top: 20%;
   text-align: center;
-  color: #fefefe;
+  color: #0328bf;
   padding: 0px;
   line-height: 25px;
+}
+
+#about {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+}
+
+#awards {
+  position: absolute;
+  right:200px;
+  top:18%;
 }
 
  ul, ol {
@@ -67,14 +91,14 @@
 
  .nav li a {
   background-color:none;
-  color:#fff;
+  color:#0328bf;
   text-decoration:none;
   padding: 1px 30px;
   display: block;
 }
 
 .nav li a:hover {
-  background-color: #da6c96;
+  background-color: #0088e7;
 }
 
 .nav > li {
@@ -93,35 +117,11 @@
 
 .nav a {
   background-color:none;
-  color:#fff;
+  color:#0328bf;
   text-decoration:none;
   padding: 7px 1px;
 }
 
 .nav a:hover {
-  background-color: #fefefe;
+  background-color: #0328bf;
 }
-
-#carousel1 {
-  position: absolute;
-  width: 350px;
-  height: 350px;
-  top: 30%;
-  left: 17%;
-}
-
- #carousel2 {
-   position: absolute;
-   width: 350px;
-   height: 350px;
-   top: 30%;
-   left: 38.5%;
- }
-
- #carousel3 {
-   position: absolute;
-   width: 350px;
-   height: 350px;
-   top: 30%;
-   left: 60%;
- }
