@@ -1,292 +1,12 @@
-#background {
-  position: absolute;
-  background-color: blue;
-}
-
-
-
-#tourdates_titulo {
-  position: absolute;
-  text-align: center;
-  left: 41%;
-  top: 10%;
-  color: #fefefe;
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-weight: 900;
-}
-
-
-#date{
-  position: absolute;
-  left: 22%;
-  top: 30%;
-  text-align: center;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  font-size: 30px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets {
-
-  position: absolute;
-  left: 22%;
-  top: 38%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#date1{
-  position: absolute;
-  left: 37%;
-  top: 30%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets1 {
-
-  position: absolute;
-  left: 37%;
-  top: 38%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-#date2 {
-  position: absolute;
-  left: 52%;
-  top: 30%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets2 {
-
-  position: absolute;
-  left: 52%;
-  top: 38%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-#date3 {
-  position: absolute;
-  left: 67%;
-  top: 30%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets3 {
-
-  position: absolute;
-  left: 67%;
-  top: 38%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-#date4{
-  position: absolute;
-  left: 22%;
-  top: 60%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets4 {
-
-  position: absolute;
-  left: 22%;
-  top: 68%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-#date5 {
-  position: absolute;
-  left: 37%;
-  top: 60%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets5 {
-
-  position: absolute;
-  left: 37%;
-  top: 68%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  padding: 0px;
-  line-height: 25px
-}
-
-#date6 {
-  position: absolute;
-  left: 52%;
-  top: 60%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets6 {
-
-  position: absolute;
-  left: 52%;
-  top: 68%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-#date7 {
-  position: absolute;
-  left: 67%;
-  top: 60%;
-  text-align: center;
-  font-size: 30px;
-  color: #fefefe;
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:60px;
-  padding: 0px;
-  line-height: 25px
-  line-height: 5px;
-}
-
-#tickets7 {
-
-  position: absolute;
-  left: 67%;
-  top: 68%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 150px;
-  height:130px;
-  font-size: 30px;
-  line-height: 25px;
-}
-
-
-
 #socialmedia {
   position: absolute;
-  left: 100px;
+  left: 6%;
   top: 90%;
 }
 
-#header {
-  margin:auto;
-  width: 500px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
 #box_menu {
   position: absolute;
-  left: 150px;
+  left: 9.1%;
   top: 10%;
   text-align: center;
   color: #fefefe;
@@ -299,9 +19,8 @@
 }
 
 #artist_menu_box {
-
   position: absolute;
-  left: 150px;
+  left: 9.1%;
   top: 21%;
   text-align: center;
   color: #fefefe;
@@ -314,56 +33,119 @@
 
 #artist_menu {
   position: absolute;
-  left: 147px;
-  top: 20%;
+  left: 10.45%;
+  top: 19.5%;
   text-align: center;
   color: #fefefe;
   padding: 0px;
   line-height: 25px;
 }
 
- ul, ol {
-  list-style: none;
+#Tour1 {
+  position: absolute;
+  width: 1100px;
+  height: 150px;
+  top: 25%;
+  left: 21%;
 }
 
- * {
-   padding: 5px;
-   margin: 0px;
+#Tour2 {
+  position: absolute;
+  width: 1100px;
+  height: 150px;
+  top: 58%;
+  left: 21%;
 }
 
- .nav li a {
-  background-color:none;
-  color:#fff;
-  text-decoration:none;
-  padding: 1px 30px;
-  display: block;
+ul, ol {
+ list-style: none;
+}
+
+* {
+  padding: 5px;
+  margin: 0px;
+}
+
+.nav li a {
+ background-color:none;
+ color:#0032b6;
+ text-decoration:none;
+ padding: 1px 30px;
+ display: block;
 }
 
 .nav li a:hover {
-  background-color: #3ec2b5;
+ background-color: #757575;
 }
 
 .nav > li {
-  float: left;
+ float: left;
 }
 
 .nav li ul {
-  display: none;
-  position: absolute;
-  min-width: 105px;
+ display: none;
+ position: absolute;
+ min-width: 105px;
 }
 
 .nav li:hover > ul {
-  display: block;
+ display: block;
 }
 
 .nav a {
-  background-color:none;
-  color:#fff;
-  text-decoration:none;
-  padding: 7px 1px;
+ background-color:none;
+ color:#fff;
+ text-decoration:none;
+ padding: 7px 1px;
 }
 
 .nav a:hover {
-  background-color: #fefefe;
+ background-color: #fefefe;
+}
+
+#tourdates_titulo {
+  position: absolute;
+  text-align: center;
+  left: 46.5%;
+  top: 13%;
+  color: red;
+  font-weight: lighter;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.highlight {
+  background-color: crimson
+}
+
+#tickets1 {
+  align-self: center;
+}
+
+#tickets2 {
+  align-self: center;
+}
+
+#tickets3 {
+  align-self: center;
+}
+
+#tickets4 {
+  align-self: center;
+}
+
+#tickets5 {
+  align-self: center;
+}
+
+#tickets6 {
+  align-self: center;
+}
+
+#tickets7 {
+  align-self: center;
+}
+
+#tickets8 {
+  align-self: center;
 }

@@ -6,53 +6,44 @@
 
 #socialmedia {
   position: absolute;
-  left: 100px;
+  left: 6%;
   top: 90%;
 }
 
 #page_name {
   position: absolute;
   text-align: center;
-  left: 44%;
+  left: 42.5%;
   top: 13%;
-  color: #0328bf;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  font-weight: 900;
+  color: Red;
+  font-weight: lighter;
+  font-size: 50px;
+  font-weight: 500;
 }
-
-#header {
-  margin:auto;
-  width: 500px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 
 #box_menu {
   position: absolute;
-  left: 150px;
+  left: 9.1%;
   top: 10%;
   text-align: center;
-  color: #0328bf;
-  background-image: url("CDblue.png");
+  color: #fefefe;
+  background-image: url("CD.png");
   padding:5px;
-  border: 2px solid #0328bf;
+  border: 2px solid #fefefe;
   width: 105px;
   height:85px;
   line-height: 5px;
 }
 
 #artist_menu_box {
-
   position: absolute;
-  left: 150px;
+  left: 9.1%;
   top: 21%;
   text-align: center;
-  color: #0328bf;
+  color: #fefefe;
   padding: 0px;
-  border: 2px solid #0328bf;
+  border: 2px solid #fefefe;
   width: 105px;
   height:30px;
   line-height: 25px;
@@ -60,24 +51,123 @@
 
 #artist_menu {
   position: absolute;
-  left: 147px;
-  top: 20%;
+  left: 10.45%;
+  top: 19.5%;
   text-align: center;
-  color: #0328bf;
+  color: #fefefe;
   padding: 0px;
   line-height: 25px;
 }
 
 #about {
   position: absolute;
-  left: 10%;
-  top: 18%;
+  width: 300px;
+  height: 400px;
+  left: 11%;
+  top: 49%;
 }
+
+#first {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 11%;
+  top: 28%;
+}
+
+#second {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 11%;
+  top: 42.5%;
+}
+
+#third {
+  position: absolute;
+  width: 180px;
+  height: 300px;
+  left: 30.5%;
+  top: 52.3%;
+}
+
 
 #awards {
   position: absolute;
-  right:200px;
-  top:18%;
+  width: 300px;
+  height: 200px;
+  right:15%;
+  top:41.5%;
+}
+
+#awards_tittle {
+  position: absolute;
+  right:5%;
+  top:31%;
+}
+
+#firstA {
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  right: 12%;
+  top: 28.5%;
+}
+
+#secondA {
+  position: absolute;
+  width:550px;
+  height: 100px;
+  right: 12%;
+  top: 34.5%;
+}
+
+#thirdA {
+  position: absolute;
+  width: 190px;
+  height: 300px;
+  right: 34%;
+  top: 41%;
+}
+
+#fourthA {
+  position: absolute;
+  width: 190px;
+  height: 300px;
+  right: 34%;
+  top: 56.5%;
+}
+
+#fithA {
+  position: absolute;
+  width: 190px;
+  height: 300px;
+  right: 34%;
+  top: 63.5%;
+}
+
+#sixthA {
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  right: 12%;
+  top: 72.5%;
+}
+
+#seventhA {
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  right: 12%;
+  top: 78.5%;
+}
+
+ #eighthA {
+  position: absolute;
+  width: 550px;
+  height: 100px;
+  right: 12%;
+  top: 84.5%;
 }
 
  ul, ol {
@@ -117,11 +207,11 @@
 
 .nav a {
   background-color:none;
-  color:#0328bf;
+  color:#fefefe;
   text-decoration:none;
   padding: 7px 1px;
 }
 
 .nav a:hover {
-  background-color: #0328bf;
+  background-color: #fefefe;
 }

@@ -1,127 +1,117 @@
+#socialmedia {
+  position: absolute;
+  left: 6%;
+  top: 90%;
+}
 
-      #socialmedia {
-        position: absolute;
-        left: 100px;
-        top: 90%;
-      }
+#artist_name {
+  position: absolute;
+  right: 6%;
+  top: 40%;
+  text-align: center;
+  color: #fefefe;
+  font-family: 'Quintessential', cursive;
+  font-size: 100px;
+  padding: 5px;
+  width: 500px;
+  height:250px;
+  line-height: 130px;
+}
 
-      #header {
-        margin:auto;
-        width: 500px;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+#artist_lastname {
+  position: absolute;
+  right: -1.2%;
+  top: 55%;
+  text-align: center;
+  color: #fefefe;
+  font-family: 'Quintessential', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  padding: 5px;
+  width: 500px;
+  height:250px;
+  line-height: 130px;
+}
 
+#box_menu {
+  position: absolute;
+  left: 9.1%;
+  top: 10%;
+  text-align: center;
+  color: #fefefe;
+  background-image: url("CD.png");
+  padding:5px;
+  border: 2px solid #fefefe;
+  width: 105px;
+  height:85px;
+  line-height: 5px;
+}
 
-      #artist_name {
-        position: absolute;
-        right: 80px;
-        top: 40%;
-        text-align: center;
-        color: #fefefe;
-        font-family: 'Quintessential', cursive;
-        font-size: 100px;
-        padding: 5px;
-        width: 500px;
-        height:250px;
-        line-height: 130px;
-      }
+#artist_menu_box {
+  position: absolute;
+  left: 9.1%;
+  top: 21%;
+  text-align: center;
+  color: #fefefe;
+  padding: 0px;
+  border: 2px solid #fefefe;
+  width: 105px;
+  height:30px;
+  line-height: 25px;
+}
 
-      #artist_lastname {
-        position: absolute;
-        right: -15px;
-        top: 55%;
-        text-align: center;
-        color: #fefefe;
-        font-family: 'Quintessential', cursive;
-        font-size: 100px;
-        font-weight: lighter;
-        padding: 5px;
-        width: 500px;
-        height:250px;
-        line-height: 130px;
-      }
+#artist_menu {
+  position: absolute;
+  left: 10.45%;
+  top: 19.5%;
+  text-align: center;
+  color: #fefefe;
+  padding: 0px;
+  line-height: 25px;
+}
 
+ ul, ol {
+  list-style: none;
+}
 
-      #box_menu {
-        position: absolute;
-        left: 150px;
-        top: 10%;
-        text-align: center;
-        color: #fefefe;
-        background-image: url("CD.png");
-        padding:5px;
-        border: 2px solid #fefefe;
-        width: 105px;
-        height:85px;
-        line-height: 5px;
-      }
+ * {
+   padding: 5px;
+   margin: 0px;
+}
 
-      #artist_menu_box {
+ .nav li a {
+  background-color:none;
+  color:#0032b6;
+  text-decoration:none;
+  padding: 1px 30px;
+  display: block;
+}
 
-        position: absolute;
-        left: 150px;
-        top: 21%;
-        text-align: center;
-        color: #fefefe;
-        padding: 0px;
-        border: 2px solid #fefefe;
-        width: 105px;
-        height:30px;
-        line-height: 25px;
-      }
+.nav li a:hover {
+  background-color: #3ec2b5;
+}
 
-      #artist_menu {
-        position: absolute;
-        left: 147px;
-        top: 20%;
-        text-align: center;
-        color: #fefefe;
-        padding: 0px;
-        line-height: 25px;
-      }
+.nav > li {
+  float: left;
+}
 
-       ul, ol {
-        list-style: none;
-      }
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 105px;
+}
 
-       * {
-         padding: 5px;
-         margin: 0px;
-      }
+.nav li:hover > ul {
+  display: block;
+}
 
-       .nav li a {
-        background-color:none;
-        color:#fff;
-        text-decoration:none;
-        padding: 1px 30px;
-        display: block;
-      }
+.nav a {
+  background-color:none;
+  color:#fff;
+  text-decoration:none;
+  padding: 7px 1px;
+}
 
-      .nav li a:hover {
-        background-color: #3ec2b5;
-      }
-
-      .nav > li {
-        float: left;
-      }
-
-      .nav li ul {
-        display: none;
-        position: absolute;
-        min-width: 105px;
-      }
-
-      .nav li:hover > ul {
-        display: block;
-      }
-
-      .nav a {
-        background-color:none;
-        color:#fff;
-        text-decoration:none;
-        padding: 7px 1px;
-      }
-
-      .nav a:hover {
-        background-color: #fefefe;
-      }
+.nav a:hover {
+  background-color: #fefefe;
+}

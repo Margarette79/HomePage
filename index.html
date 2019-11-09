@@ -3,27 +3,30 @@
   <head>
     <title> Home Page </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quintessential&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-
   </head>
 
   <body background="images/celinedion_singing.jpg">
-
     <div id="artist_menu_box"></div>
     <div id="artist_menu">
       <ul class="nav">
-        <li> <a href=""> Menu </a>
-          <ul>
-            <li> <a href="index.html"> Home Page </a> </li>
-            <li> <a href="about.html"> About </a> </li>
-            <li> <a href="discography.html"> Discography </a> </li>
-            <li> <a href="media.html"> Media </a> </li>
-            <li> <a href="merch.html"> Merch </a> </li>
-            <li> <a href="tour-dates.html"> Tour Dates </a> </li>
-           </ul>
-         </li>
+      <div class="dropdown">
+          <li class="dropdown-taggle" data-toggle="dropdown"> Menu </li>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="discography.html">Discography</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="tour-dates.html">Tour Dates</a></li>
+          </ul>
       </ul>
+      </div>
     </div>
 
     <div id="artist_name"> Celine </div>
