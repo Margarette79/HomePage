@@ -4,6 +4,14 @@
   top: 90%;
 }
 
+#background {
+  background: #66999 url(images/celinedion_singing.jpg) center center cover no-repeat fixed;
+}
+
+
+
+
+
 #artist_name {
   position: absolute;
   right: 6%;
