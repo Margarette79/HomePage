@@ -1,16 +1,19 @@
+
+
+body {
+  background-image: url("../images/celinedion_singing.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
 #socialmedia {
   position: absolute;
   left: 6%;
   top: 90%;
 }
-
-#background {
-  background: #66999 url(images/celinedion_singing.jpg) center center cover no-repeat fixed;
-}
-
-
-
-
 
 #artist_name {
   position: absolute;
