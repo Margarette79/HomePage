@@ -3,17 +3,19 @@ body {
   background-color: #0328bf;
 }
 
-#about_celine h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 p {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #awards h1 {
-  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#celinedion_image {
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -21,43 +23,8 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 12px;
-    color: red;
+    color: #fefefe;
 }
-
-/*
-#artist_menu_stack {
-  position: absolute;
-  left: 8%;
-  top: 10%;
-}
-
-#box_menu {
-  text-align: center;
-  color: #fefefe;
-  background-image: url("CD.png");
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:85px;
-  line-height: 5px;
-}
-
-#artist_menu_box {
-  text-align: center;
-  vertical-align: middle;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:30px;
-}
-
-#artist_menu {
-  display: inline-block;
-  color: #fefefe;
-  padding: 0px;
-}
-*/
 
 .ahnavblock {
     padding-top: 30px;
@@ -78,7 +45,7 @@ p {
 
  .nav li a {
   background-color:none;
-  color: red;
+  color:red;
   font-size: 20px;
   text-decoration:none;
   padding: 1px 30px;
@@ -86,7 +53,7 @@ p {
 }
 
 .nav li a:hover {
-  background-color: fefefe;
+  background-color: #fefefe;
 }
 
 .nav > li {
@@ -105,7 +72,7 @@ p {
 
 .nav a {
   background-color:none;
-  color:#9fc45c;
+  color:#fefefe;
   text-decoration:none;
   padding: 7px 1px;
 }

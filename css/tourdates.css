@@ -1,44 +1,16 @@
+
+body {
+  background-color: #0328bf;
+}
+
 #socialmedia {
   position: absolute;
-  left: 6%;
-  top: 90%;
+  left: 45%;
+  top:85%;
 }
 
-#box_menu {
-  position: absolute;
-  left: 9.1%;
-  top: 10%;
-  text-align: center;
-  color: #fefefe;
-  background-image: url("CD.png");
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:85px;
-  line-height: 5px;
-}
-
-#artist_menu_box {
-  position: absolute;
-  left: 9.1%;
-  top: 21%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:30px;
-  line-height: 25px;
-}
-
-#artist_menu {
-  position: absolute;
-  left: 10.45%;
-  top: 19.5%;
-  text-align: center;
-  color: #fefefe;
-  padding: 0px;
-  line-height: 25px;
+#cd_tour {
+margin-top:200px 
 }
 
 #Tour1 {
@@ -46,7 +18,7 @@
   width: 1100px;
   height: 150px;
   top: 25%;
-  left: 21%;
+  left: 19.5%;
 }
 
 #Tour2 {
@@ -54,68 +26,18 @@
   width: 1100px;
   height: 150px;
   top: 58%;
-  left: 21%;
-}
-
-ul, ol {
- list-style: none;
-}
-
-* {
-  padding: 5px;
-  margin: 0px;
-}
-
-.nav li a {
- background-color:none;
- color:#0032b6;
- text-decoration:none;
- padding: 1px 30px;
- display: block;
-}
-
-.nav li a:hover {
- background-color: #757575;
-}
-
-.nav > li {
- float: left;
-}
-
-.nav li ul {
- display: none;
- position: absolute;
- min-width: 105px;
-}
-
-.nav li:hover > ul {
- display: block;
-}
-
-.nav a {
- background-color:none;
- color:#fff;
- text-decoration:none;
- padding: 7px 1px;
-}
-
-.nav a:hover {
- background-color: #fefefe;
+  left: 19.5%;
 }
 
 #tourdates_titulo {
   position: absolute;
   text-align: center;
-  left: 46.5%;
+  left: 45%;
   top: 13%;
-  color: red;
+  color: #fccb00;
   font-weight: lighter;
   font-size: 40px;
   font-weight: 500;
-}
-
-.highlight {
-  background-color: crimson
 }
 
 #tickets1 {
@@ -148,4 +70,76 @@ ul, ol {
 
 #tickets8 {
   align-self: center;
+}
+
+.card-header {
+  color: #fefefe;
+}
+
+.ahcaptiontext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fefefe;
+}
+
+
+.ahnavblock {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.ahnavlink {
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+
+ul, ol {
+ list-style: none;
+}
+
+.nav li a {
+ background-color:none;
+ color:red;
+ text-decoration:none;
+ font-size: 20px;
+ padding: 1px 30px;
+ display: block;
+}
+
+.nav li a:hover {
+ background-color: #fefefe;
+}
+
+.nav > li {
+ float: left;
+}
+
+.nav li ul {
+ display: none;
+ position: absolute;
+ min-width: 105px;
+}
+
+.nav li:hover > ul {
+ display: block;
+}
+
+.nav a {
+ background-color:none;
+ color:#fff;
+ text-decoration:none;
+ padding: 7px 1px;
+}
+
+.nav a:hover {
+ background-color: #fefefe;
+}
+
+
+.highlight {
+  background-color: crimson
 }
