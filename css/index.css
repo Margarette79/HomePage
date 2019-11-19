@@ -1,5 +1,4 @@
 
-
 body {
   background-image: url("../images/celine_dion_hp.jpg");
   height: 100%;
@@ -7,62 +6,33 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
 
-
-#socialmedia {
-  margin-top:625px;
-}
+/*NAME*/
 
 #artist_name {
-  position: absolute;
-  left: 6%;
-  top: 33%;
+  position: relative;
+  right:-26%;
+  margin-top: 140px;
   text-align: center;
   color: #fefefe;
   font-family: 'Quintessential', cursive;
   font-size: 6vmax;
-  width: 500px;
+  width: 700px;
   height:250px;
-  line-height: 1.2em;
+  line-height: 1em;
   height: 3em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-#artist_menu_stack {
-  position: absolute;
-  left: 8%;
-  top: 10%;
+
+#cd {
+  line-height: 0.2em;
 }
 
-#box_menu {
-  text-align: center;
-  color: #fefefe;
-  background-image: url("CD.png");
-  padding:5px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:85px;
-  line-height: 5px;
-}
-
-#artist_menu_box {
-  text-align: center;
-  vertical-align: middle;
-  color: #fefefe;
-  padding: 0px;
-  border: 2px solid #fefefe;
-  width: 105px;
-  height:30px;
-}
-
-#artist_menu {
-  display: inline-block;
-  color: #fefefe;
-  padding: 0px;
-}
-
+/*MENU*/
 .ahcaptiontext {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -80,44 +50,93 @@ body {
     padding-top: 15px;
 }
 
- ul, ol {
-  list-style: none;
-}
 
- .nav li a {
-  background-color:none;
-  color:#fefefe;
-  font-size:18px;
-  text-decoration:none;
-  padding: 1px 30px;
-  display: block;
-}
-
-.nav li a:hover {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: #40bfb9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-.nav > li {
-  float: left;
-}
-
-.nav li ul {
-  display: none;
-  position: absolute;
-  min-width: 105px;
-}
-
-.nav li:hover > ul {
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fefefe;
   display: block;
+  transition: 0.3s;
 }
 
-.nav a {
-  background-color:none;
-  color:#fff;
-  text-decoration:none;
-  padding: 7px 1px;
+.sidenav a:hover {
+  color: #0328bf;
 }
 
-.nav a:hover {
-  background-color: #fefefe;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  position: relative;
+  transition: margin-left .5s;
+  padding: 60px 30px 30px 100px;
+  font-family: cursive;
+  color: #fefefe;
+}
+
+/*Social Media Bar*/
+.icon-bar {
+  position: fixed;
+  top: 82%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #a4a1a3;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  background: #40bfb9;
+  color: white;
+}
+
+.twitter {
+  background: #3B5998;
+  color: white;
+}
+
+
+.youtube {
+  background: #40bfb9;
+  color: white;
+}
+
+.content {
+  margin-right: 75px;
+  font-size: 30px;
 }
