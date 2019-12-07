@@ -41,8 +41,6 @@ body {
   text-overflow: ellipsis;
 }
 
-
-
 #Tour1 {
   width: 1100px;
   margin-bottom: 80px;
@@ -52,8 +50,6 @@ body {
   width: 1100px;
   margin-bottom: 100px;
 }
-
-
 
 #tickets1 {
   align-self: center;
@@ -87,33 +83,15 @@ body {
   align-self: center;
 }
 
+#demo {
+  color: #fccb00;
+}
+
 .card-header {
   color: #fefefe;
 }
-.ahnavblock {
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
 
 /*MENU*/
-
-.ahcaptiontext {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 12px;
-    color: #fefefe;
-}
-
-.ahnavlink {
-    font-weight: 500;
-    font-size: 18px;
-    display: inline-block;
-}
-
-.ahnavblock {
-    padding-top: 15px;
-}
-
 
 .sidenav {
   height: 100%;
@@ -156,7 +134,6 @@ body {
   font-family: cursive;
   color: #fefefe;
 }
-
 
 
 /*Social Media Bar*/

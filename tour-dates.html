@@ -2,105 +2,89 @@
 <html>
 <head>
   <title> Tour Dates </title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153178317-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153178317-1');
-</script>
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Quintessential|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/tourdates.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/functions.js"> </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
  <body>
 
 <!-- Menu-->
-          <div class="bg-img">
-              <div class="container-fluid">
-            <div id="main">
-              <span style="font-size:60px;"  onclick="openNav()">  &#9776;CD</span>
-            </div>
-           <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="discography.html">Discography</a>
-            <a href="media.html">Media</a>
-            <a href="merch.html">Merch</a>
-            <a href="tour-dates.html">Tour</a>
-          </div>
-          </div>
-          </div>
+ <div class="bg-img">
+  <div class="container-fluid">
+  <div id="main">
+    <span style="font-size:60px;"  onclick="openNav()">  &#9776;CD</span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="discography.html">Discography</a>
+    <a href="media.html">Media</a>
+    <a href="merch.html">Merch</a>
+    <a href="tour-dates.html">Tour</a>
+   </div>
+   </div>
+  </div>
 
 
 <!-- Container-->
 
+<button onclick="myFunction()">Buy your ticket with 10% discount before Decembre 15</button>
+<div id="demo"></div>
+
   <div class="container">
-    <div id="tourdates_titulo">TOUR DATES </div>
+   <div id="tourdates_titulo">TOUR DATES </div>
    <div id="Tour1">
-    <div class="card-deck">
-       <div class="card border-light mb-3" style="max-width: 18rem;">
-         <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  07,  2019</h4></div>
-         <div class="card-body text-dark">
-           <h5 class="card-title">United Center</h5>
-           <p class="card-text">Chicago, IL</p>
-         </div>
-         <div id="tickets1">
-           <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
-           <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
-           <!--<div align="center" class="card-footer bg-dark border-dark" class="highlight"><font color="white">TICKESTS</font></div>-->
-         </div>
-       </div>
-     <div class="card border-light mb-3" style="max-width: 18rem;">
-       <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  08,  2019</h4></div>
-       <div class="card-body text-dark">
-         <h5 class="card-title">TD Garden</h5>
-         <p class="card-text">Boston, MA</p>
-       </div>
-       <div id="tickets2">
-         <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
-         <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
-       </div>
-     </div>
-     <div class="card border-light mb-3" style="max-width: 18rem;">
-       <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  21,  2019</h4></div>
-       <div class="card-body text-dark">
-         <h5 class="card-title">Scotiabank Arena</h5>
-         <p class="card-text">Toronto, ON</p>
-       </div>
-       <div id="tickets3">
-         <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
-         <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
-       </div>
-     </div>
-     <div class="card border-light mb-3" style="max-width: 18rem;">
-       <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  22,  2019</h4></div>
-       <div class="card-body text-dark">
-         <h5 class="card-title">Amalie Arena</h5>
-         <p class="card-text">Tampa, Fl</p>
-       </div>
-       <div id="tickets4">
-         <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
-         <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
-       </div>
-      </div>
-     </div>
+   <div class="card-deck">
+   <div class="card border-light mb-3" style="max-width: 18rem;">
+   <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  07,  2019</h4></div>
+   <div class="card-body text-dark">
+     <h5 class="card-title">United Center</h5>
+      <p class="card-text">Chicago, IL</p>
    </div>
+   <div id="tickets1">
+      <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
+      <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
+   <!--<div align="center" class="card-footer bg-dark border-dark" class="highlight"><font color="white">TICKESTS</font></div>-->
+   </div>
+   </div>
+   <div class="card border-light mb-3" style="max-width: 18rem;">
+   <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  08,  2019</h4></div>
+   <div class="card-body text-dark">
+     <h5 class="card-title">TD Garden</h5>
+     <p class="card-text">Boston, MA</p>
+   </div>
+   <div id="tickets2">
+     <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
+     <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
+   </div>
+   </div>
+   <div class="card border-light mb-3" style="max-width: 18rem;">
+   <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  21,  2019</h4></div>
+   <div class="card-body text-dark">
+      <h5 class="card-title">Scotiabank Arena</h5>
+      <p class="card-text">Toronto, ON</p>
+   </div>
+   <div id="tickets3">
+      <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
+      <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
+   </div>
+   </div>
+   <div class="card border-light mb-3" style="max-width: 18rem;">
+   <div align="center" class="card-header bg-secondary border-dark"><h4>DEC  22,  2019</h4></div>
+   <div class="card-body text-dark">
+     <h5 class="card-title">Amalie Arena</h5>
+       <p class="card-text">Tampa, Fl</p>
+   </div>
+   <div id="tickets4">
+      <a  href="https://www.ticketmaster.com/celine-dion-tickets/artist/734929" class="btn btn-dark"><font color="white">TICKESTS</font></a>
+      <a  href="https://www.ticketmaster.com/promo/473jzs" class="btn btn-dark"><font color="white">VIP</font></a>
+   </div>
+   </div>
+   </div>
+  </div>
  </div>
 
 <div class="container">
@@ -156,56 +140,58 @@
 
   <!-- Social Media-->
 
-      <div class="icon-bar">
-        <a href="https://www.facebook.com/celinedion/" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.instagram.com/celinedion/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="https://twitter.com/hashtag/c%C3%A9linedion?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.youtube.com/channel/UC_yGU4qz9zAjEWLQxCg9NZQ" class="youtube"><i class="fa fa-youtube"></i></a>
-      </div>
-
+ <div class="icon-bar">
+   <a href="https://www.facebook.com/celinedion/" class="facebook"><i class="fa fa-facebook"></i></a>
+   <a href="https://www.instagram.com/celinedion/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>
+   <a href="https://twitter.com/hashtag/c%C3%A9linedion?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+   <a href="https://www.youtube.com/channel/UC_yGU4qz9zAjEWLQxCg9NZQ" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
 
   <!-- Footer-->
 
-        <div class="footer">
-          <div class="inner_footer">
-            <div class="logo_container">
-              <img src="images/celine_dion_about.png">
-            </div>
-              <div class="footer_third">
-                <h1 id="h1"> Need help? </h1>
-                <a href="#"> Terms &amp; Conditions</a>
-                <a href="#"> Privacy Policy</a>
-             </div>
-            <div class="footer_third">
-              <h1 id="h1"> More </h1>
-              <a href="#"> Brochures</a>
-              <a href="#"> Donate</a>
-              <a href="#"> Governance</a>
-              <a href="#"> Impact Reports</a>
-           </div>
-           <div class="footer_third">
-             <h1 id="h1"> More </h1>
-             <a href="#"> Brochures</a>
-             <a href="#"> Donate</a>
-             <a href="#"> Governance</a>
-             <a href="#"> Impact Reports</a>
-          </div>
-           <div class="footer_third">
-             <h1 id="h1"> Follow us </h1>
-             <li><a href="https://www.facebook.com/celinedion/"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="https://www.instagram.com/celinedion/?hl=en"><i class="fa fa-instagram"></i></a></li>
-             <li><a href="https://twitter.com/hashtag/c%C3%A9linedion?lang=en"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="https://www.youtube.com/channel/UC_yGU4qz9zAjEWLQxCg9NZQ"><i class="fa fa-youtube"></i></a></li>
-            <span>
-              World Celine Dion <br>
-              163 Spear <br>
-              Unit: 510 <br>
-              San Francisco, Ca <br>
-              95014
-            </span>
-            </div>
-          </div>
-        </div>
+ <div class="footer">
+  <div class="inner_footer">
+  <div class="logo_container">
+     <img src="images/celine_dion_about.png">
+  </div>
+  <div class="footer_third">
+    <h1 id="h1"> Need help? </h1>
+      <a href="#"> Terms &amp; Conditions</a>
+      <a href="#"> Privacy Policy</a>
+   </div>
+   <div class="footer_third">
+     <h1 id="h1"> More </h1>
+       <a href="#"> Brochures</a>
+       <a href="#"> Donate</a>
+       <a href="#"> Governance</a>
+       <a href="#"> Impact Reports</a>
+    </div>
+    <div class="footer_third">
+      <h1 id="h1"> More </h1>
+        <a href="#"> Brochures</a>
+        <a href="#"> Donate</a>
+        <a href="#"> Governance</a>
+        <a href="#"> Impact Reports</a>
+     </div>
+     <div class="footer_third">
+       <h1 id="h1"> Follow us </h1>
+         <li><a href="https://www.facebook.com/celinedion/"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.instagram.com/celinedion/?hl=en"><i class="fa fa-instagram"></i></a></li>
+         <li><a href="https://twitter.com/hashtag/c%C3%A9linedion?lang=en"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://www.youtube.com/channel/UC_yGU4qz9zAjEWLQxCg9NZQ"><i class="fa fa-youtube"></i></a></li>
+        <span>
+          World Celine Dion <br>
+          163 Spear <br>
+          Unit: 510 <br>
+          San Francisco, Ca <br>
+          95014
+         </span>
+      </div>
+     </div>
+   </div>
+ </body>
 
-      </body>
-    </html>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="js/functions.js"> </script>
+</html>

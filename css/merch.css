@@ -12,27 +12,36 @@ body {
   position: relative;
 }
 
-a {
-
-}
-
 .btn {
   margin-top: 10px;
 }
 
-#sunglasses {
 
+
+.active {
+  color: red;
+}
+
+#show {
+  margin-top: 30px;
+}
+
+.btn {
+  color: #fccb00;
+}
+
+
+#sunglasses {
   text-align: center;
   color: #fccb00;
   font-weight: normal;
   font-size: 40px;
   font-weight: 500;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 
 #bags {
-
   text-align: center;
   color: #fccb00;
   font-weight: normal;
@@ -41,39 +50,8 @@ a {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-}
-
-
-#BagsA {
-
-  width: 1050px;
-}
-
-#SunglassesA {
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  width: 1050px;
-}
-
 
 /*MENU*/
-.ahcaptiontext {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 12px;
-    color: #fefefe;
-}
-
-.ahnavlink {
-    font-weight: 500;
-    font-size: 18px;
-    display: inline-block;
-}
-
-.ahnavblock {
-    padding-top: 15px;
-}
-
 
 .sidenav {
   height: 100%;
@@ -117,7 +95,6 @@ a {
   color: #0328bf;
 }
 
-
 /*Social Media Bar*/
 
 .icon-bar {
@@ -150,7 +127,6 @@ a {
   background: #55ACEE;
   color: white;
 }
-
 
 .instagram {
   background: #dd4b39;

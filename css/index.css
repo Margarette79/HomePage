@@ -28,28 +28,7 @@ body {
   text-overflow: ellipsis;
 }
 
-#cd {
-  line-height: 0.2em;
-}
-
 /*MENU*/
-.ahcaptiontext {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 12px;
-    color: #fefefe;
-}
-
-.ahnavlink {
-    font-weight: 500;
-    font-size: 18px;
-    display: inline-block;
-}
-
-.ahnavblock {
-    padding-top: 15px;
-}
-
 
 .sidenav {
   height: 100%;
